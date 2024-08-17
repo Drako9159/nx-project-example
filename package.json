@@ -1,0 +1,22 @@
+{
+  "name": "@nx-project-example/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "@nxtensions/astro": "19.0.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.5.2",
+    "@nx/js": "19.6.0",
+    "@nx/workspace": "19.6.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "astro": "^4.3.5",
+    "nx": "19.6.0",
+    "prettier": "^2.6.2",
+    "typescript": "~5.5.2"
+  }
+}
