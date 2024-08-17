@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  outDir: '../../dist/apps/nx-project-example',
+  outDir: '../../dist/apps/master-newsletter',
 });

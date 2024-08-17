@@ -1,8 +1,8 @@
 {
-  "name": "nx-project-example",
+  "name": "master-newsletter",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/nx-project-example/src",
+  "sourceRoot": "apps/master-newsletter/src",
   "targets": {
     "build": {
       "executor": "@nxtensions/astro:build",
