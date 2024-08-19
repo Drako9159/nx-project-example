@@ -28,6 +28,5 @@
     // Enable strict mode. This enables a few options at a time, see https://www.typescriptlang.org/tsconfig#strict for a list.
     "strict": true
   },
-  "references": [{ "path": "../../libs/master-components" }],
-  "include": ["src"]
+  "include": ["index.ts", "src"]
 }

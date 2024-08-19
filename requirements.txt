@@ -4,7 +4,24 @@ npx create-nx-workspace@latest --preset=@nxtensions/astro --pm yarn
 # cli for use nx commands
 npm install -g nx@latest
 
-yarn add global nxtensions/astro
+# for run project
+nx dev nx-project-example
+
+nx add @nx/js@latest
+
+nx generate @nxtensions/astro:lib master-components
+
+
+
+
+
+
+
+nx g @nx/astro:app master-news
+nx g @nxtensions/astro:app master-news
+
+
+yarn add global nxtensions/nxtensions
 
 // add astro app
 nx g @nx/astro:app master-news

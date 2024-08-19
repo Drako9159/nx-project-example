@@ -5,6 +5,10 @@
     "production": ["default"],
     "sharedGlobals": []
   },
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
   "nxCloudAccessToken": "YTJlZDY4NmItOGU4My00YTcyLWI0MmUtYTY2OTFjOTg2M2NhfHJlYWQtd3JpdGU=",
   "plugins": ["@nxtensions/astro"],
   "targetDefaults": {
