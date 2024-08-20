@@ -13,5 +13,18 @@ const { title } = Astro.props;
 <style>
   .title {
     font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #ff00ff;
+    text-shadow: 2px 2px 4px rgba(255,0,255,0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
   }
+  .title:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+
+
 </style>
