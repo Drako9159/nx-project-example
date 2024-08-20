@@ -1,17 +1,16 @@
 ---
-interface Props {
-    title: string;
-}
-const { title } = Astro.props;
+// interface Props {
+//     text: string;
+// }
 
 ---
 
 
 
-<h1 class="title">{title}</h1>
+<h1 class="text"><slot/></h1>
 
 <style>
-  .title {
+  .text {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
     color: #ff00ff;
@@ -20,11 +19,11 @@ const { title } = Astro.props;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  .title:hover {
+  .text:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
   }
-  
+
 
 
 </style>
